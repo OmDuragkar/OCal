@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <h1><span class="main">O-Calculator</span></h1>
+    <div class="box">
+        <p id="display">Start Caculating</p><br>
+        <p onclick="listen(9)" id="9" class=" box button" >
+            <span>
+                9
+            </span>
+        </p>
+        <dive onclick="divide()" class="box button2">
+            /
+        </dive>
+        <p onclick="listen(8)" class="box button">
+            8
+        </p><br>
+        <p onclick="listen(7)"  class="box button">
+            7
+        </p>
+        <dive onclick="multiply()" class="box button2">
+            x
+        </dive>
+        <p onclick="listen(6)" class="box button">
+            6
+        </p><br>
+        <p onclick="listen(5)" class="box button">
+            5
+        </p>
+        <dive onclick="minus()" class="box button2">
+            -
+        </dive>
+        <p onclick="listen(4)" class="box button">
+            4
+        </p><br>
+        <p onclick="listen(3)" class="box button">
+            3
+        </p>
+        <dive onclick="add()" class="box button2">
+            +
+        </dive>
+        <p onclick="listen(2)" class="box button">
+            2
+        </p><br>
+        <p onclick="listen(1)" class="box button">
+            1
+        </p>
+        <p onclick="listen(0)" class="box button">
+            0
+        </p>
+        <dive onclick="backspace()" class="box button2">
+            <~
+        </dive><br>
+        <p onclick="del()" class="di">
+            A/C
+        </p>
+        <p class="di" onclick="equal()">
+            =
+        </p>
+        <p class="di" onclick="plmin()">
+            +/-
+        </p>
+    </div>
+    <script src="calci.js">
+    </script>
+</body>
+</html>
